@@ -1,0 +1,118 @@
+/* Style global du body */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('rental.png'); /* Chemin relatif si l'image est dans un dossier Documents */
+  background-size: 99% 100%; /* Largeur 99%, hauteur 100% (maintenir la longueur) */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* Pas de répétition */
+  background-color: #f4f4f9; /* Couleur de secours */
+  background-size: cover;
+  background-attachment: fixed; /* <-- Fond fixe */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.signup-text{
+  color: #1d546a;
+}
+/* Formulaire */
+form {
+  background-color: rgba(81, 206, 255, 0.6); /* Bleu ciel clair transparent */
+  padding: 50px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.2); /* Ombre pour rendre le formulaire visible */
+}
+
+/* Container du formulaire */
+.login-container {
+  background: rgba(135, 206, 235, 0.6); /* Bleu ciel clair transparent */
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Ombre subtile pour plus de visibilité */
+  width: 500px;
+ 
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 1.5rem;
+  color: #1d546a; /* Bleu ciel clair pour le titre */
+}
+
+/* Groupes d'entrées */
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #155671; /* Couleur mauve clair pour les labels */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Bouton */
+button {
+  background-color: #41b4e6; /* Couleur mauve clair */
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+ a {
+  color: #1d546a; /* Couleur bleu clair pour les liens */
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #41b4e6; /* Bleu plus clair au survol */
+  }
+ /* Styles de la popup */
+ #popup {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 300px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.popup-succes {
+  background-color: #46b9df;
+}
+
+.popup-erreur {
+  background-color: #f44336;
+}
+
+  

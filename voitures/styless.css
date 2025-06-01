@@ -1,0 +1,147 @@
+/* Style global du body */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('rental.png'); /* Chemin relatif si l'image est dans un dossier Documents */
+  background-size: 99% 100%; /* Largeur 99%, hauteur 100% (maintenir la longueur) */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* Pas de répétition */
+  background-color: #f4f4f9; /* Couleur de secours */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Formulaire */
+form {
+  background-color: rgba(135, 206, 235, 0.6); /* Bleu ciel clair transparent */
+  padding: 50px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre pour rendre le formulaire visible */
+}
+
+/* Container du formulaire */
+.login-container {
+  background: rgba(135, 206, 235, 0.6); /* Bleu ciel clair transparent */
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre subtile pour plus de visibilité */
+  width: 400px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 1.5rem;
+  color: #1d546a; /* Bleu ciel clair pour le titre */
+}
+
+/* Groupes d'entrées */
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #41b4e6; /* Couleur mauve clair pour les labels */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Bouton */
+button {
+  background-color: #41b4e6; /* Couleur mauve clair */
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #318fa6; /* Mauve plus foncé au survol */
+}
+
+/* Section "Mot de passe oublié" et "S'inscrire" */
+.forgot-password {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #1d546a; /* Couleur plus sombre pour mieux se démarquer */
+}
+
+.forgot-password a {
+  color: #1d546a; /* Couleur bleu clair */
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  color: #41b4e6; /* Couleur plus claire au survol */
+  text-decoration: underline; /* Souligner au survol */
+}
+
+/* Section "S'inscrire" */
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.85rem; /* Aligné avec .forgot-password */
+  display: inline-flex; /* Mettre sur la même ligne */
+  align-items: center; /* Alignement vertical centré */
+  color: #1d546a; /* Couleur légèrement plus foncée */
+}
+
+.signup-text span {
+  margin-right: 0.5rem; /* Espacement entre "Vous n'avez pas de compte ?" et "Inscription" */
+}
+
+.signup-link {
+  font-weight: 700; /* Un peu plus épais */
+  color: #41b4e6; /* Couleur alignée */
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  color: #318fa6; /* Couleur plus foncée au survol */
+  text-decoration: underline; /* Souligner au survol */
+}
+
+/* Liens pour Mot de passe oublié et Inscription */
+.links-container {
+  margin-top: 2rem; /* Décalage vers le haut */
+  text-align: center; /* Centrer les liens */
+}
+
+ a {
+  color: #1d546a; /* Couleur bleu clair pour les liens */
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #41b4e6; /* Bleu plus clair au survol */
+  }
+.reset-password-container{
+  background: rgba(135, 206, 235, 0.6); /* Bleu ciel clair transparent */
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre subtile pour plus de visibilité */
+  width: 400px;
+  text-align: center;
+
+}
+.reset-password-container h1 {
+  margin-bottom: 1.5rem;
+  color: #1d546a; /* Bleu ciel clair pour le titre */
+}
