@@ -103,3 +103,33 @@ La base de données relationnelle `locationvoitures` est structurée ainsi pour 
                               │ id_retour (FK)   │
                               │ num_reser (FK)   │
                               └──────────────────┘
+
+
+📁 Structure du ProjetPlaintextlocation-voitures/
+├── locationvoitures.sql          # Dump SQL complet de la base de données
+├── presentation-carrental.pdf    # Support visuel de soutenance (Slides)
+├── rapportcarrantal.pdf          # Rapport de conception et technique écrit
+└── voitures/                     # Code source de l'application web
+    ├── index.php                 # Page d'accueil publique de la plateforme
+    ├── login.html / login.php    # Interface et traitement d'authentification
+    ├── signup.php                # Formulaire d'inscription client
+    ├── traitement_inscription.php# Script de validation d'inscription
+    ├── reset_password.html / .php# Réinitialisation de mot de passe
+    ├── logout.php                # Déconnexion et destruction de session
+    ├── client.php                # Dashboard principal de l'espace client
+    ├── reservation.php           # Traitement des demandes de location
+    ├── mes_reservations.php      # Historique et annulation des réservations client
+    ├── admin.php                 # Dashboard central d'administration (Statistiques)
+    ├── ajouter_voiture.php       # Formulaire d'ajout d'un véhicule (CRUD)
+    ├── modifier_voiture.php      # Formulaire de mise à jour d'un véhicule (CRUD)
+    ├── supprimer_voiture.php     # Script de suppression d'un véhicule (CRUD)
+    ├── ajouter_amende.php        # Formulaire d'affectation d'une amende de retour
+    ├── db.php                    # Connexion globale PDO à la base de données
+    └── images/                   # Dossier contenant les photos du parc (ABC001 à ABC020)
+📸 Captures d'Écran💡 Remplacez les attributs src="..." par les liens réels de vos captures d'écran sur GitHub.👤 Espace ClientInterface Publique & Catalogue (Flotte Automobile)Formulaire de Réservation & Facture PDF Finale🛠️ Panneau AdministrateurTableau de Bord Principal & Statistiques de l'AgenceGestion de la Flotte (CRUD) & Formulaire des Amendes⚙️ Installation & ConfigurationÉtapes de déploiement en localClonage du dépôt distant :Bashgit clone [https://github.com/kha-diija/location-voitures.git](https://github.com/kha-diija/location-voitures.git)
+cd location-voitures
+Transfert vers le répertoire web :Copiez le répertoire voitures/ dans le dossier de publication de votre serveur local (ex: C:/xampp/htdocs/location-voitures/).Importation de la base de données :Créez une nouvelle base de données nommée locationvoitures sur phpMyAdmin.Importez-y le fichier locationvoitures.sql situé à la racine du projet.Fichier de Configuration (voitures/db.php)PHP$host     = 'localhost';
+$user     = 'root';
+$password = '';               // Modifiez selon votre configuration MySQL locale
+$database = 'locationvoitures';
+Accès à l'application via le navigateur : http://localhost/location-voitures/🔧 Utilisation (Comptes de Test)Utilisez ces profils de démonstration pré-configurés pour tester l'application en local :RôleAdresse EmailMot de passeAdministrateuralamisami@gmail.com123Client (Exemple 1)ahmed.elhabib@gmail.comaaaaClient (Exemple 2)sarah.wakili@gmail.comazertyu1📄 Documents IntégrésDocumentTypeDescription📄 rapportcarrantal.pdfRapport techniqueDocumentation d'ingénierie écrite complète détaillant la problématique, les objectifs et la conception.📊 presentation-carrental.pdfSlides de SoutenanceSupport visuel de présentation utilisé lors de l'exposé devant le jury.🗃️ locationvoitures.sqlScript SQLScript d'initialisation de la structure de données et insertion du jeu de test de la flotte.
