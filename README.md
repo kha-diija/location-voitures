@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Table des matières
+##  Table des matières
 
 - [Aperçu](#-aperçu)
 - [Fonctionnalités](#-fonctionnalités)
@@ -41,7 +41,7 @@ Le projet couvre le cycle complet d'une location : de la réservation à la rest
 
 ##  Fonctionnalités
 
-### 👤 Espace Client
+###  Espace Client
 - **Inscription & Connexion** — Création de compte avec numéro de permis, authentification sécurisée par session PHP
 - **Parcourir la flotte** — Consultation des véhicules disponibles avec photos, caractéristiques et tarifs
 - **Réservation en ligne** — Sélection des dates de début et de fin, calcul automatique du tarif total
@@ -49,7 +49,7 @@ Le projet couvre le cycle complet d'une location : de la réservation à la rest
 - **Annulation de réservation** — Possibilité d'annuler une réservation en cours
 - **Gestion du profil** — Modification des informations personnelles et réinitialisation du mot de passe
 
-### 🛠️ Espace Administrateur
+###  Espace Administrateur
 - **Tableau de bord** — Vue globale de l'activité (clients, véhicules, réservations, amendes)
 - **Gestion de la flotte** — Ajout, modification et suppression de véhicules avec upload d'images
 - **Gestion des réservations** — Confirmation, suivi et gestion des retours de véhicules
