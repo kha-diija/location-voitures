@@ -105,6 +105,7 @@ La base de données relationnelle `locationvoitures` est structurée ainsi pour 
                               └──────────────────┘
 
 
+```
 📁 Structure du ProjetPlaintextlocation-voitures/
 ├── locationvoitures.sql          # Dump SQL complet de la base de données
 ├── presentation-carrental.pdf    # Support visuel de soutenance (Slides)
@@ -132,4 +133,4 @@ Transfert vers le répertoire web :Copiez le répertoire voitures/ dans le dossi
 $user     = 'root';
 $password = '';               // Modifiez selon votre configuration MySQL locale
 $database = 'locationvoitures';
-Accès à l'application via le navigateur : http://localhost/location-voitures/🔧 Utilisation (Comptes de Test)Utilisez ces profils de démonstration pré-configurés pour tester l'application en local :RôleAdresse EmailMot de passeAdministrateuralamisami@gmail.com123Client (Exemple 1)ahmed.elhabib@gmail.comaaaaClient (Exemple 2)sarah.wakili@gmail.comazertyu1📄 Documents IntégrésDocumentTypeDescription📄 rapportcarrantal.pdfRapport techniqueDocumentation d'ingénierie écrite complète détaillant la problématique, les objectifs et la conception.📊 presentation-carrental.pdfSlides de SoutenanceSupport visuel de présentation utilisé lors de l'exposé devant le jury.🗃️ locationvoitures.sqlScript SQLScript d'initialisation de la structure de données et insertion du jeu de test de la flotte.
+Accès à l'application via le navigateur : http://localhost/location-voitures/🔧 Utilisation (Comptes de Test)Utilisez ces profils de démonstration pré-configurés pour tester l'application en local :RôleAdresse EmailMot de passeAdministrateuralamisami@gmail.com123Client (Exemple 1)ahmed.elhabib@gmail.comaaaaClient (Exemple 2)sarah.wakili@gmail.comazertyu1📄 Documents IntégrésDocumentTypeDescription📄 rapportcarrantal.pdfRapport techniqueDocumentation d'ingénierie écrite complète détaillant la problématique, les objectifs et la conception.📊 presentation-carrental.pdfSlides de SoutenanceSupport visuel de présentation utilisé lors de l'exposé devant le jury.🗃️ locationvoitures.sqlScript SQLScript d'initialisation de la structure de données et insertion du jeu de test de la flotte.isation de la structure de données et insertion du jeu de test de la flotte.
