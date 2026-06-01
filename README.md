@@ -1,102 +1,108 @@
-# 🚗 Plateforme de Gestion & de Réservation de Véhicules
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3B0N3Znd2Y1N3M0NXpndXp5bXN0Ym15bW93bHpxbXN0Ym15bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qss0b96nS8UHi/giphy.gif" alt="MasterHead" width="100%">
+</p>
+
+<img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="21%" />
+<img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="21%" />
+
+<h1 align="center">🚗 CAR RENTAL — Système de Location de Voitures</h1>
+<h3 align="center">💻 Application Web Full-Stack | PHP & MySQL | Architecture MVC-like</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,mysql,html,css,js" alt="Tech Stack" />
+  <b>CAR RENTAL</b> est une application web dynamique complète dédiée à la gestion globale d'une agence de location de voitures. L'application automatise le flux complet de réservation pour les clients tout en offrant une interface d'administration robuste pour piloter l'activité en temps réel (flotte, contrats, clients, retards et amendes).
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-9.x-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Licence-MIT-green?style=flat-square" />
 </p>
 
 ---
 
-## 📝 À propos du projet
-Ce projet consiste en la conception et le développement d'une application web dynamique complète dédiée à la **gestion globale d'une agence de location de voitures**[cite: 1, 2]. L'application automatise le flux complet de réservation pour les clients tout en offrant une interface d'administration robuste pour piloter l'activité de l'agence.
-
-### 🎯 Objectifs clés :
-* Offrir une expérience utilisateur fluide pour la recherche et la réservation de véhicules[cite: 1, 2].
-* Centraliser la gestion de la flotte automobile, des clients et des contrats[cite: 1, 2].
-* Assurer une persistance et une intégrité parfaites des données avec une base relationnelle.
-
----
-
-## 📂 Contenu du Dépôt
-Ce dépôt est organisé de manière transparente pour inclure tout le cycle de vie du projet :
-* 💻 **`voitures/`** — Le code source complet de l'application (PHP, JS, CSS).
-* 🗃️ **`locationvoitures.sql`** — Le script de structure et d'initialisation de la base de données.
-* 📄 **`rapportcarrantal.pdf`** — Le rapport conceptuel et technique détaillé.
-* 📊 **`presentation-carrental.pdf`** — Le support visuel de présentation du projet.
+## 📋 Table des matières
+- [🌟 Aperçu du Projet](#-aperçu-du-projet)
+- [✨ Fonctionnalités Détaillées](#-fonctionnalités-détaillées)
+- [🏗️ Architecture & Technologies](#️-architecture--technologies)
+- [🗃️ Schéma de la Base de Données](#-schéma-de-la-base-de-données)
+- [📁 Structure Complète du Projet](#-structure-complète-du-projet)
+- [📸 Captures d'Écran & Interfaces](#-captures-décran--interfaces)
+- [⚙️ Installation & Configuration](#️-installation--configuration)
+- [🔧 Utilisation (Comptes de Test)](#-utilisation-comptes-de-test)
+- [📄 Documents Intégrés](#-documents-intégrés)
 
 ---
 
-## 🛠️ Stack Technique
-
-### 👨‍💻 Langages de programmation
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=php,js,html,css" height="40" />
-</p>
-
-### ⚙️ Backend & Base de données
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" />
-</p>
+## 🌟 Aperçu du Projet
+Le projet couvre le cycle complet d'une location de véhicule : de la recherche d'une voiture disponible à l'inscription sécurisée, en passant par le calcul automatisé des tarifs selon la durée, jusqu'à la restitution du véhicule, la gestion des retards, l'application d'amendes et l'édition de factures de clôture.
 
 ---
 
-## 📐 Modèle Logique des Données (MLD)
-La base de données relationnelle a été rigoureusement modélisée (tables `client`, `voiture`, `reservation`, `amende`, `administrateur`) pour garantir l'intégrité des informations et éviter les conflits de dates lors des réservations.
+## ✨ Fonctionnalités Détaillées
 
-<p align="center">
-  <!-- PLACE ICI L'IMAGE DU MLD (Page 8 du Rapport ou Diapo 7 de la Présentation) -->
-  <img src="images/mld.png" alt="Modèle Logique des Données" width="80%">
-</p>
+### 👤 1. Espace Client (Front-Office)
+* **Inscription & Connexion :** Création de compte complète (nom, prénom, tél, adresse, numéro et date de permis) avec gestion sécurisée des sessions PHP.
+* **Flotte Dynamique :** Consultation en temps réel des 20 véhicules de l'agence avec filtres, statuts de disponibilité et tarifs journaliers.
+* **Réservation en Ligne :** Sélection des dates avec blocage automatique des dates indisponibles et calcul instantané du montant total.
+* **Suivi du Compte :** Historique complet des réservations avec statuts (Confirmée, Annulée) et possibilité d'annulation en un clic.
+* **Gestion du Profil :** Modification des données personnelles et réinitialisation sécurisée du mot de passe.
 
----
-
-## ✨ Interfaces de l'Application
-
-### 👤 1. Espace Client (Public)
-L'interface client offre un parcours utilisateur fluide, de la découverte de la flotte jusqu'à la génération de la facture de réservation.
-
-* **Page d'Accueil & Flotte :** Une vitrine moderne présentant les services et les véhicules disponibles avec leurs tarifs.
-<p align="center">
-  <!-- PLACE ICI L'IMAGE DE L'ACCUEIL CLIENT (Page 8 du Rapport ou Diapo 8 de la Présentation) -->
-  <img src="images/accueil_client.png" alt="Accueil Client" width="45%">
-  <!-- PLACE ICI L'IMAGE DE LA FLOTTE (Page 9 du Rapport ou Diapo 11 de la Présentation) -->
-  <img src="images/flotte_voitures.png" alt="Flotte de véhicules" width="45%">
-</p>
-
-* **Réservation & Facturation :** Sélection dynamique des dates, formulaire de paiement sécurisé et édition automatisée de la facture au format PDF.
-<p align="center">
-  <!-- PLACE ICI L'IMAGE DU FORMULAIRE DE RÉSERVATION (Page 16 du Rapport) -->
-  <img src="images/reservation_form.png" alt="Formulaire de Réservation" width="45%">
-  <!-- PLACE ICI L'IMAGE DE LA FACTURE GÉNÉRÉE (Page 17 ou 18 du Rapport) -->
-  <img src="images/facture_pdf.png" alt="Facture PDF Générée" width="45%">
-</p>
+### 🛠️ 2. Espace Administrateur (Back-Office)
+* **Tableau de Bord centralisé :** Vue globale instantanée sur l'activité (indicateurs clés : total clients, voitures, réservations et amendes).
+* **Gestion du Parc Automobile (CRUD) :** Ajout, modification et suppression des véhicules avec téléversement et stockage des photos.
+* **Suivi des Réservations :** Validation des demandes, suivi des départs et enregistrement des retours.
+* **Gestion des Retards & Amendes :** Calcul automatique des jours de retard lors du retour et application d'amendes modulables (panne, dégâts matériels, retard).
+* **Facturation Automatique :** Génération des fiches de facturation à la clôture du dossier.
 
 ---
 
-### 👑 2. Panneau d'Administration (Back-Office)
-L'espace administrateur permet un contrôle total et sécurisé sur l'ensemble de l'activité de l'agence.
+## 🏗️ Architecture & Technologies
 
-* **Tableau de Bord & Statistiques :** Vue d'ensemble du nombre de voitures, réservations actives, clients inscrits et amendes.
 <p align="center">
-  <!-- PLACE ICI L'IMAGE DU DASHBOARD ADMIN (Page 10 du Rapport ou Diapo 13 de la Présentation) -->
-  <img src="images/dashboard_admin.png" alt="Tableau de Bord Administrateur" width="80%">
+  <img src="https://skillicons.dev/icons?i=php,mysql,html,css,js" height="50" />
 </p>
 
-* **Gestion du Parc Automobile (CRUD) :** Interface permettant d'ajouter, modifier, supprimer et filtrer les véhicules en temps réel selon plusieurs critères (marque, immatriculation, prix, etc.)[cite: 2].
-<p align="center">
-  <!-- PLACE ICI L'IMAGE DE LA LISTE DES VOITURES (Page 10 du Rapport) -->
-  <img src="images/liste_voitures.png" alt="Gestion de la Flotte" width="80%">
-</p>
-
-* **Gestion des Réservations & Amendes :** Suivi rigoureux des contrats de location et application d'amendes modulables en cas de retard ou de véhicule endommagé[cite: 2].
-<p align="center">
-  <!-- PLACE ICI L'IMAGE DE LA GESTION DES AMENDES (Page 14 du Rapport) -->
-  <img src="images/gestion_amendes.png" alt="Gestion des Amendes" width="80%">
-</p>
+* **Architecture MVC-like :** Séparation claire entre la logique métier (scripts de traitement backend PHP) et la couche de présentation (interfaces HTML/CSS).
+* **API AJAX (JavaScript Asynchrone) :** Chargement dynamique des données sans rechargement de page pour la liste des voitures, des réservations et des clients (`get_voitures.php`, `load_reservations.php`, etc.).
+* **Sécurité des Données :** Utilisation exclusive de l'API **PDO** et **MySQLi** avec requêtes préparées pour faire barrière aux injections SQL.
 
 ---
 
-## 🚀 Installation et Lancement en local
+## 🗃️ Schéma de la Base de Données
 
-1. **Cloner le projet :**
-```bash
-   git clone [https://github.com/kha-diija/location-voitures.git](https://github.com/kha-diija/location-voitures.git)
+La base de données relationnelle relationnelle `locationvoitures` est rigoureusement structurée pour maintenir une intégrité parfaite et empêcher les doubles réservations :
+
+```text
+┌─────────────────┐       ┌──────────────────────┐       ┌──────────────┐
+│    client        │       │      reservation      │       │   voiture    │
+│─────────────────│       │──────────────────────│       │──────────────│
+│ id_client (PK)  │──┐    │ num_reser (PK)        │   ┌──│num_immat(PK) │
+│ nom_client      │  └───>│ id_client (FK)        │   │  │ marque       │
+│ prenom_client   │       │ num_immatriculation(FK│───┘  │ modele       │
+│ num_tel         │       │ date_debut            │       │ carburant    │
+│ adresse         │       │ date_fin              │       │ statut_voit  │
+│ num_permis      │       │ statut                │       │ kilometrage  │
+│ date_permis     │       │ tarif                 │       │ prix_location│
+│ email           │       └──────────┬────────────┘       └──────────────┘
+│ motdepasse      │                  │
+└─────────────────┘                  │
+                              ┌──────▼──────────┐
+                              │  retour_voiture  │
+┌─────────────────┐           │─────────────────│       ┌──────────────┐
+│ administrateur  │           │ id_retour (PK)   │──┬──>│   facture    │
+│─────────────────│           │ date_retour      │  │   │──────────────│
+│ id_admin (PK)   │           │ retard_jours     │  │   │ num_facture  │
+│ nom_admin       │           │ num_reser (FK)   │  │   │ date_facture │
+│ prenom_admin    │           └──────┬───────────┘  │   │ montant_total│
+│ email_admin     │                  │              │   └──────────────┘
+│ motdepasse_admin│           ┌──────▼───────────┐  │
+└─────────────────┘           │     amende        │──┘
+                              │──────────────────│
+                              │ id_amende (PK)   │
+                              │ type_amende      │
+                              │ description      │
+                              │ montant          │
+                              │ id_retour (FK)   │
+                              │ num_reser (FK)   │
+                              └──────────────────┘
