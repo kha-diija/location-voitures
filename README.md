@@ -31,7 +31,7 @@
   <img width="500" src="https://github.com/user-attachments/assets/66b0604c-58cc-45a8-8b40-2280fbf4a568" alt="CAR RENTAL preview"/>
 </p>
 
-## 🌟 Aperçu
+##  Aperçu
 
 **CAR RENTAL** est une application web de gestion de location de véhicules qui permet à des clients de parcourir une flotte de voitures disponibles, de faire des réservations en ligne, et à des administrateurs de gérer l'ensemble des opérations (flotte, réservations, clients, amendes et factures).
 
@@ -39,7 +39,7 @@ Le projet couvre le cycle complet d'une location : de la réservation à la rest
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 ### 👤 Espace Client
 - **Inscription & Connexion** — Création de compte avec numéro de permis, authentification sécurisée par session PHP
@@ -59,14 +59,13 @@ Le projet couvre le cycle complet d'une location : de la réservation à la rest
 
 ---
 
-## 🏗️ Architecture & Technologies
+##  Architecture & Technologies
 
 | Couche | Technologie |
 |--------|------------|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="18"/> Backend | PHP 8.3 (PDO + MySQLi) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="18"/> Base de données | MySQL 9.1 |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="18"/> Frontend | HTML5, CSS3, JavaScript (Vanilla) |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fontawesome/fontawesome-original.svg" width="18"/> Icônes | Font Awesome 6.4 |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" width="18"/> Serveur local | XAMPP / WAMP |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="18"/> Versioning | Git & GitHub |
 
@@ -78,7 +77,7 @@ Le projet couvre le cycle complet d'une location : de la réservation à la rest
 
 ---
 
-## 🗃️ Schéma de la base de données
+##  Schéma de la base de données
 
 La base de données `locationvoitures` contient **6 tables** :
 
@@ -227,7 +226,7 @@ http://localhost/location-voitures/
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 Le fichier de connexion à la base de données est `voitures/db.php` :
 
@@ -242,7 +241,7 @@ Adapter ces valeurs selon votre environnement local si nécessaire.
 
 ---
 
-## 🚀 Utilisation
+##  Utilisation
 
 ### Connexion Administrateur
 
@@ -261,7 +260,7 @@ Adapter ces valeurs selon votre environnement local si nécessaire.
 
 ---
 
-## 🚘 Flotte de véhicules
+##  Flotte de véhicules
 
 La flotte comprend **20 véhicules** de différentes marques et catégories :
 
@@ -282,10 +281,10 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-## 📸 Captures d'écran
+##  Captures d'écran
 
-### 🏠 Page d'accueil
-> `index.php` — Slide 7, 8, 9 · Présentation p.7–9
+###  Page d'accueil
+
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/b88c89b1-a2ea-43ca-abf5-566515e030ba" alt="Page d'accueil — Hero"/>
@@ -304,8 +303,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 🔐 Page de connexion
-> `login.html` — Slide 10 · Présentation p.10
+###  Page de connexion
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/2ba96482-0fd2-4e74-b1d2-609009a8079b" alt="Page de connexion"/>
@@ -314,8 +312,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 📝 Page d'inscription
-> `signup.php` — Slide 11 · Présentation p.11
+###  Page d'inscription
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/79d17af8-42eb-46f2-ac26-695c2c94fce7" alt="Page d'inscription"/>
@@ -324,8 +321,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 🔑 Réinitialisation du mot de passe
-> `reset_password.html` — Slide 12 · Présentation p.12
+###  Réinitialisation du mot de passe
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/06640cac-0fac-4477-b8f4-9ddf7e0a8846" alt="Réinitialisation mot de passe"/>
@@ -334,8 +330,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 🚗 Dashboard client — Voitures disponibles
-> `client.php` — Slide 13 · Présentation p.13
+###  Dashboard client — Voitures disponibles
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/67ca159f-75b0-4d3c-8763-51f648e92219" alt="Dashboard client — Voitures disponibles"/>
@@ -344,8 +339,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 📅 Modal de réservation
-> `client.php` / `reservation.php` — Slide 14 · Présentation p.14
+###  Modal de réservation
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/f0173329-f158-4c7c-be36-6199b71a8cdb" alt="Modal de réservation"/>
@@ -354,8 +348,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 📋 Mes Réservations
-> `mes_reservations.php` — Slide 15 · Présentation p.15
+###  Mes Réservations
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/a462ae1a-304e-4f66-81ae-dce23c12aadc" alt="Mes réservations"/>
@@ -364,8 +357,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-### 🛠️ Tableau de bord administrateur
-> `admin.php` — Slide 16 · Présentation p.16
+###  Tableau de bord administrateur
 
 <p align="center">
   <img width="500" src="https://github.com/user-attachments/assets/e10cdcb1-99e9-4d39-8fd3-32570fb94db3" alt="Dashboard administrateur"/>
@@ -374,7 +366,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-## 📄 Documents du projet
+##  Documents du projet
 
 | Document | Description |
 |----------|-------------|
@@ -384,7 +376,7 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-## 👨‍💻 Auteurs
+##  Auteurs
 
 Projet réalisé dans le cadre d'un projet académique.
 
@@ -393,7 +385,7 @@ Projet réalisé dans le cadre d'un projet académique.
 
 ---
 
-## 📝 Licence
+##  Licence
 
 Ce projet est distribué sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
