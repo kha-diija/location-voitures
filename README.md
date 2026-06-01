@@ -26,8 +26,10 @@
 - [Auteurs](#-auteurs)
 
 ---
-<img width="463" height="225" alt="image" src="https://github.com/user-attachments/assets/66b0604c-58cc-45a8-8b40-2280fbf4a568" />
 
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/66b0604c-58cc-45a8-8b40-2280fbf4a568" alt="CAR RENTAL preview"/>
+</p>
 
 ## 🌟 Aperçu
 
@@ -61,12 +63,12 @@ Le projet couvre le cycle complet d'une location : de la réservation à la rest
 
 | Couche | Technologie |
 |--------|------------|
-| Backend | PHP 8.3 (PDO + MySQLi) |
-| Base de données | MySQL 9.1 |
-| Frontend | HTML5, CSS3, JavaScript (Vanilla) |
-| Icônes | Font Awesome 6.4 |
-| Serveur local | XAMPP / WAMP |
-| Versioning | Git & GitHub |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="18"/> Backend | PHP 8.3 (PDO + MySQLi) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="18"/> Base de données | MySQL 9.1 |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="18"/> Frontend | HTML5, CSS3, JavaScript (Vanilla) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fontawesome/fontawesome-original.svg" width="18"/> Icônes | Font Awesome 6.4 |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" width="18"/> Serveur local | XAMPP / WAMP |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="18"/> Versioning | Git & GitHub |
 
 **Patterns utilisés :**
 - Architecture **MVC-like** (séparation logique métier / affichage)
@@ -280,43 +282,95 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 ---
 
-##  Captures d'écran
+## 📸 Captures d'écran
 
+### 🏠 Page d'accueil
+> `index.php` — Slide 7, 8, 9 · Présentation p.7–9
 
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/b88c89b1-a2ea-43ca-abf5-566515e030ba" alt="Page d'accueil — Hero"/>
+  <br/><em>Section hero : slider principal avec slogan et navigation</em>
+</p>
 
-** Page d'accueil **
-<img width="635" height="360" alt="image" src="https://github.com/user-attachments/assets/b88c89b1-a2ea-43ca-abf5-566515e030ba" />
-<img width="554" height="317" alt="image" src="https://github.com/user-attachments/assets/9bca7efc-77a8-4b34-8866-3a731c8334d2" />
-<img width="532" height="316" alt="image" src="https://github.com/user-attachments/assets/2a0ccb16-6d02-4536-a503-d009a3afad0a" />
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/9bca7efc-77a8-4b34-8866-3a731c8334d2" alt="Page d'accueil — À propos"/>
+  <br/><em>Section "À propos" : mission et chiffres clés</em>
+</p>
 
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/2a0ccb16-6d02-4536-a503-d009a3afad0a" alt="Page d'accueil — Services"/>
+  <br/><em>Section "Nos Services" : location courte/longue durée, entreprises, assurance…</em>
+</p>
 
-**Page de connexion**
-<img width="554" height="316" alt="image" src="https://github.com/user-attachments/assets/2ba96482-0fd2-4e74-b1d2-609009a8079b" />
+---
 
-**Page d'inscription**
+### 🔐 Page de connexion
+> `login.html` — Slide 10 · Présentation p.10
 
-<img width="549" height="317" alt="image" src="https://github.com/user-attachments/assets/79d17af8-42eb-46f2-ac26-695c2c94fce7" />
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/2ba96482-0fd2-4e74-b1d2-609009a8079b" alt="Page de connexion"/>
+  <br/><em>Formulaire de connexion : email + mot de passe, lien vers inscription et reset</em>
+</p>
 
+---
 
-**Réinitialisation du mot de passe**
-<img width="542" height="316" alt="image" src="https://github.com/user-attachments/assets/06640cac-0fac-4477-b8f4-9ddf7e0a8846" />
+### 📝 Page d'inscription
+> `signup.php` — Slide 11 · Présentation p.11
 
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/79d17af8-42eb-46f2-ac26-695c2c94fce7" alt="Page d'inscription"/>
+  <br/><em>Formulaire d'inscription : nom, prénom, téléphone, adresse, numéro et date de permis, email, mot de passe</em>
+</p>
 
-**Dashboard client / Voitures disponibles**
-<img width="557" height="320" alt="image" src="https://github.com/user-attachments/assets/67ca159f-75b0-4d3c-8763-51f648e92219" />
+---
 
-**Modal de réservation**
-<img width="501" height="320" alt="image" src="https://github.com/user-attachments/assets/f0173329-f158-4c7c-be36-6199b71a8cdb" />
+### 🔑 Réinitialisation du mot de passe
+> `reset_password.html` — Slide 12 · Présentation p.12
 
-**Slide 15 — Mes Réservations**
-<img width="555" height="315" alt="image" src="https://github.com/user-attachments/assets/a462ae1a-304e-4f66-81ae-dce23c12aadc" />
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/06640cac-0fac-4477-b8f4-9ddf7e0a8846" alt="Réinitialisation mot de passe"/>
+  <br/><em>Formulaire de réinitialisation : email, ancien mot de passe, nouveau mot de passe, confirmation</em>
+</p>
 
+---
 
+### 🚗 Dashboard client — Voitures disponibles
+> `client.php` — Slide 13 · Présentation p.13
 
-**Tableau de bord administrateur**
-<img width="551" height="316" alt="image" src="https://github.com/user-attachments/assets/e10cdcb1-99e9-4d39-8fd3-32570fb94db3" />
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/67ca159f-75b0-4d3c-8763-51f648e92219" alt="Dashboard client — Voitures disponibles"/>
+  <br/><em>Grille des véhicules disponibles avec photos, navigation : Voitures / Mes Réservations / Mon Compte</em>
+</p>
 
+---
 
+### 📅 Modal de réservation
+> `client.php` / `reservation.php` — Slide 14 · Présentation p.14
+
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/f0173329-f158-4c7c-be36-6199b71a8cdb" alt="Modal de réservation"/>
+  <br/><em>Pop-up de réservation : fiche véhicule (immatriculation, carburant, km, prix/jour), sélection des dates de début et fin</em>
+</p>
+
+---
+
+### 📋 Mes Réservations
+> `mes_reservations.php` — Slide 15 · Présentation p.15
+
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/a462ae1a-304e-4f66-81ae-dce23c12aadc" alt="Mes réservations"/>
+  <br/><em>Historique des réservations : statut "confirmée", voiture, immatriculation, période et prix total en MAD</em>
+</p>
+
+---
+
+### 🛠️ Tableau de bord administrateur
+> `admin.php` — Slide 16 · Présentation p.16
+
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/e10cdcb1-99e9-4d39-8fd3-32570fb94db3" alt="Dashboard administrateur"/>
+  <br/><em>Panneau d'administration : compteurs (voitures, réservations, clients, amendes), menu latéral Voiture / Réservation / Utilisateur / Amende</em>
+</p>
 
 ---
 
@@ -324,8 +378,8 @@ La flotte comprend **20 véhicules** de différentes marques et catégories :
 
 | Document | Description |
 |----------|-------------|
-| [`presentation-carrental.pdf`](./presentation-carrental.pdf) | Présentation PowerPoint du projet (slides) |
-| [`rapportcarrantal.pdf`](./rapportcarrantal.pdf) | Rapport technique détaillé |
+| [`presentation-carrental.pdf`](./presentation-carrental.pdf) | Présentation du projet (18 slides) |
+| [`rapportcarrantal.pdf`](./rapportcarrantal.pdf) | Rapport technique détaillé (20 pages) |
 | [`locationvoitures.sql`](./locationvoitures.sql) | Dump complet de la base de données |
 
 ---
